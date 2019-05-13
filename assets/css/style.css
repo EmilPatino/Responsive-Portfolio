@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: sans-serif;  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  
   }
       
 /*Your name box*/
@@ -18,7 +18,7 @@ body {
     padding-right: 12px;
     padding-left:12px;
     border: 3px solid #4aaaa5;
-    font-family: sans-serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 12px;
     color: white;
     text-align: center;
@@ -47,7 +47,7 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     position: relative;
     right: 15%;
   }
@@ -60,7 +60,7 @@ body {
        
 /*About Me Title*/
   .aboutme {
-    font-family: sans-serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     border-bottom: 2px solid;
     border-bottom-color: #cccccc;
@@ -76,7 +76,7 @@ body {
 /*Body Font*/
   #biotext{
     color: #777777;
-    font-family: sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 25px;
   }
 
@@ -100,7 +100,7 @@ body {
     text-align: center;
     font-size: 10px;
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     border-top: 8px solid #4aaaa5;
     min-width: 1360px;
  }
@@ -110,22 +110,45 @@ body {
 /* Name & Email Box*/
  input[type=text] {
     width: 100%;
+    height: 20px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid #dddddd;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777
+  }
+
+
+/*About Me Title*/
+.contact {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  border-bottom-color: #cccccc;
+  color:#4aaaa5;
+  margin-bottom: 15px;
+}
+
+/*Label Styling*/
+label {
+  color: #777777;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
   }
 
 /* Message Box Styling*/
 textarea {
     width: 100%;
-    height: 140px;
+    height: 150px;
     padding: 12px 20px;
+    margin-top: 8px;
     box-sizing: border-box;
     border: 2px solid #dddddd;
     border-radius: 4px;
     background-color: #ffffff;
-    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
     resize: none;
   }
 
@@ -138,5 +161,7 @@ textarea {
   font-weight: bold;
   border: none;
   margin: 10px;
-
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  position: relative;
+  right: 1%;
 }
