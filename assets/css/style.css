@@ -33,7 +33,7 @@ body {
     background-color: #ffffff;
     border-bottom: 2px solid;
     border-bottom-color: #cccccc;
-    min-width: 1360px;
+    width: 100%;
  }
         
 /* Style the topnav links */
@@ -85,8 +85,8 @@ body {
     background-color: #ffffff;
     padding: 10px;
     flex: 1 0 auto;
-    width: 960px; 
-    min-width: 960px;
+    width: 100%; 
+    max-width: 960px;
     margin: 0 auto;
     border-color: #dddddd;
     border: 4px;
@@ -102,7 +102,7 @@ body {
     color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     border-top: 8px solid #4aaaa5;
-    min-width: 1360px;
+    width: 100%;
  }
 
  /*----------------------------Contact.HTML---------------------------------*/
@@ -120,7 +120,7 @@ body {
   }
 
 
-/*About Me Title*/
+/*Contact Title*/
 .contact {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -165,3 +165,38 @@ textarea {
   position: relative;
   right: 1%;
 }
+
+
+ /*----------------------------Portfolio.HTML---------------------------------*/
+
+/*Portfolio Title*/
+.portfolio {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  border-bottom-color: #cccccc;
+  color:#4aaaa5;
+  margin-bottom: 15px;
+}
+
+/*Buttons with Pics in the background*/
+.picrow1 {
+  width: 280px; 
+  height: 140px;
+  float: left;
+  margin: 10px;
+}
+
+.picrow2 {
+  width: 280px; 
+  height: 140px;
+  float:left;
+  margin: 10px;
+}
+
+.picrow3 {
+  width: 280px;
+  height:140px;
+  margin: 10px;
+}
+  
