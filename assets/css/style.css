@@ -180,23 +180,37 @@ textarea {
 }
 
 /*Buttons with Pics in the background*/
-.picrow1 {
-  width: 280px; 
-  height: 140px;
+.pic1 {
+  width: 310px; 
+  height: 155px;
   float: left;
   margin: 10px;
 }
 
-.picrow2 {
-  width: 280px; 
-  height: 140px;
+.pic2 {
+  width: 310px; 
+  height: 155px;
   float:left;
   margin: 10px;
 }
 
-.picrow3 {
-  width: 280px;
-  height:140px;
+.pic3 {
+  width: 310px;
+  height:155px;
+  margin: 10px;
+  float: left;
+}
+
+.pic4 {
+  width: 310px;
+  height:155px;
+  margin: 10px;
+  float: left;
+}
+
+.pic5 {
+  width: 310px;
+  height:155px;
   margin: 10px;
 }
   
