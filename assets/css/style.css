@@ -180,11 +180,28 @@ textarea {
 }
 
 /*Buttons with Pics in the background*/
+.container {
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
 .pic1 {
   width: 310px; 
   height: 155px;
-  float: left;
-  margin: 10px;
+}
+
+#hangman{
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  background-color: #4aaaa5;
+  color: white;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 11px;
+  text-align: center;
 }
 
 .pic2 {
