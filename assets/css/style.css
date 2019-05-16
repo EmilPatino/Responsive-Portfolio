@@ -204,12 +204,6 @@ textarea {
   text-align: center;
 }
 
-.pic2 {
-  width: 310px; 
-  height: 155px;
-  float:left;
-}
-
 #rpg{
   position: absolute;
   bottom: 10px;
@@ -221,13 +215,6 @@ textarea {
   padding-bottom: 0px;
   font-size: 11px;
   text-align: center;
-}
-
-.pic3 {
-  width: 310px;
-  height:155px;
-  margin: 10px;
-  float: left;
 }
 
 #trivia{
@@ -243,13 +230,6 @@ textarea {
   text-align: center;
 }
 
-.pic4 {
-  width: 310px;
-  height:155px;
-  margin: 10px;
-  float: left;
-}
-
 #rutgers {
   position: absolute;
   bottom: 10px;
@@ -262,12 +242,6 @@ textarea {
   font-size: 11px;
   text-align: center;
   }
-
-.pic5 {
-  width: 310px;
-  height:155px;
-  margin: 10px;
-}
   
 #rps {
   position: absolute;
