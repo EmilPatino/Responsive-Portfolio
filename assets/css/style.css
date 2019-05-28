@@ -6,7 +6,7 @@ html, body {
 * {
   box-sizing: border-box;
 }
-      
+ 
 /*Your name box*/
 #namebox {
     background-color: #4aaaa5;
@@ -29,6 +29,16 @@ html, body {
   border-bottom-color: #cccccc;
   padding: 6px 0px;
 }
+
+@media screen and (min-width: 768px) {
+  #nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid;
+    border-bottom-color: #cccccc;
+    padding: 15px 0px;
+  }
+}
+
 
 .navlinks {
   color: #8f8f8f;
@@ -58,7 +68,7 @@ html, body {
   border-bottom-color: #cccccc;
   color:#4aaaa5;
   margin-bottom: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   padding-top: 15px;
 }
 
@@ -70,7 +80,15 @@ html, body {
     margin-left: auto;
     margin-right: auto;
   }
-        
+   
+  @media screen and (min-width: 768px) {
+    #mypic {
+      float: left;
+      margin-right: 15px;
+      margin-top: 25px;
+    }
+  }
+
 /*Body Font*/
   #biotext{
     color: #777777;
@@ -180,3 +198,4 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
