@@ -5,48 +5,70 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
 </head>
 <body background="assets/images/floor-tile.png">
 
-<div class="topnav">
-    <div class="namebox">
-        <h1>Emil Patino</h1>
-    </div>
-        
-    <div class="topnavlinks">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">| Portfolio |</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</div>
-
-<br>
-
-<div class="content">
-  <div class="contact">
-    <h2>Contact</h2>
+  <div class="container">
+      <div class="row">
+          <div class="col" id="namebox">
+              Emil Patino
+          </div>
+      </div>
+         
+      <div class="row" id="nav">
+          <div class="col" id="about">
+                <a class="navlinks" href="index.html">About</a>
+          </div>
+          
+          <div class="col" id="portfolio">
+                <a class="navlinks" href="portfolio.html">Portfolio</a>
+          </div>
+          
+          <div class="col" id="contact">
+                <a class="navlinks" href="contact.html">Contact</a>
+          </div>
+      </div>
   </div>
 
-    <form>
-        <label for="fname" class="labeltext">First Name</label>
-        <input type="text" id="fname" name="fname">
-        <br>
-        <label for="lname" class="labeltext">Email</label>
-        <input type="text" id="lname" name="lname">
-        <br>
-        <label for= "message" class="labeltext">Message</label>
-        <textarea type="text" id="message" name="message"></textarea>
-        <br>
-        <input class="button" type="submit" value="Submit" />
-    </form>
-</div>
+  <br>
 
-<br><br>
+  <div class="container content">
+      <div class="row">
+          <div class="col">
+              <h2 class="boxheader">Contact</h2>
+          </div>
+      </div>
 
-<div class="footer">
-  <footer>Copyright ©</footer>
-</div>
+      <br>
+         
+      <div class="row">
+          <div class="col">
+              <form>
+                  <label for="fname" class="labeltext">Name</label>
+                  <input type="text" id="fname" name="fname">
+                  <br>
+                  <label for="lname" class="labeltext">Email</label>
+                  <input type="text" id="lname" name="lname">
+                  <br>
+                  <label for= "message" class="labeltext">Message</label>
+                  <textarea type="text" id="message" name="message"></textarea>
+                  <br>
+                  <input class="button" type="submit" value="Submit" />
+              </form>
+          </div>
+      </div>
+  </div>
+
+  <div class="container footer">
+      <div class="row">
+          <div class="col">
+              Copyright ©
+          </div>
+      </div>
+  </div>
 
 </body>
 </html>
